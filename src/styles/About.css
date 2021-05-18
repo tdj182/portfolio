@@ -1,0 +1,15 @@
+.About {
+  height: 100vh;
+  text-align: left;
+}
+
+.About-title {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.About-history-section {
+  display: flex;
+  justify-content: space-between;
+}

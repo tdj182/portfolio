@@ -1,0 +1,26 @@
+.home-circular-portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.home-circular-portrait img {
+  width: 100%;
+  height: auto;
+}
+
+.home-icon {
+  margin: 0px 5px;
+}
+
+svg.fa-github {
+ color: black;
+}
+
+hr {
+  width: 30px;
+  border: 1px solid white !important;
+  border-radius: 20%;
+}
