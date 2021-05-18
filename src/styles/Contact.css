@@ -1,0 +1,27 @@
+.Contact-form {
+  max-width: 500px;
+}
+
+.Contact-form .form-group {
+  text-align: left;
+}
+
+.Contact-form .form-control {
+  background-color: transparent;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid white;
+}
+
+.Contact-form .form-control:focus {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  box-shadow: none;
+}
+
+.Contact-form .Contact-submit {
+  background-color: white;
+  color: black;
+  border-radius: 16px;
+}
