@@ -18,7 +18,6 @@ function Navigation() {
   return (
     <div className="container">
       <Navbar className="Navigation" light expand="sm">
-        {/* <NavLink className="text-white" href="/portfolio/">Home</NavLink> */}
         <NavbarToggler onClick={toggle} />
         <Collapse className="justify-content-center" isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
@@ -26,7 +25,7 @@ function Navigation() {
               <NavLink className="Navigation-link text-white" activeClassName="selected" tag={RRNavLink} exact to="/">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className="Navigation-link text-white" activeClassName="selected" tag={RRNavLink} exact to="/portfolio">Portfolio</NavLink>
+              <NavLink className="Navigation-link text-white" activeClassName="selected" tag={RRNavLink} exact to="/projects">Portfolio</NavLink>
             </NavItem>
             <NavItem>
               <NavLink className="Navigation-link text-white" activeClassName="selected" tag={RRNavLink} exact to="/about">About Me</NavLink>
