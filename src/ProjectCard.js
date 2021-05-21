@@ -1,7 +1,6 @@
 import React from "react";
 import {
-  Card, CardText, CardBody, CardLink,
-  CardTitle, CardSubtitle
+  Card, CardText, CardBody, CardLink
 } from 'reactstrap';
 import './styles/ProjectCard.css';
 
@@ -17,7 +16,7 @@ function ProjectCard({title, image, description, link}) {
       //     <CardLink href={link}>Visit site</CardLink>
       //   </CardBody>
       // </Card>
-      <Card className="ProjectCard mx-auto">
+      <Card className="ProjectCard">
         <CardLink href={link}><img width="100%" src={image} alt="Card" /></CardLink>
         <CardBody>
           <CardText>{title}</CardText>
