@@ -1,7 +1,6 @@
 import React from "react";
 import './styles/Home.css';
 import profilePicture from './images/profile_pic.jpg'
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Home() {
