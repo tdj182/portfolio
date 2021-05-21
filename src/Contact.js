@@ -46,6 +46,7 @@ function Contact() {
             type="text"
             onChange={handleChange}
             value={username}
+            placeholder="Your name"
             required
           />
         </FormGroup>
@@ -57,6 +58,7 @@ function Contact() {
             type="email"
             onChange={handleChange}
             value={email}
+            placeholder="Your email"
             required
           />
         </FormGroup>
@@ -68,6 +70,7 @@ function Contact() {
             type="textarea"
             onChange={handleChange}
             value={message}
+            placeholder="Write your message"
             required
           />
         </FormGroup>

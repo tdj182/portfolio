@@ -1,4 +1,8 @@
-.Portfolio {
+.Portfolio-header {
+  /* color: black */
+}
+
+.Portfolio-area {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;

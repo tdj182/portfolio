@@ -2,9 +2,17 @@
   color: black;
   width: 318px;
   margin-bottom: 10px;
+  background-color: transparent !important;
+  /* border: none !important; */
+  border-bottom: 1px solid black !important;
+  /* border-radius: 0px !important; */
 }
 
-.ProjectCard img:hover {
+.ProjectCard img {
+  height: 180px;
+}
+
+/* .ProjectCard img:hover {
   position:relative;
   top:-25px;
   left:-35px;
@@ -12,7 +20,7 @@
   height:auto;
   display:block;
   z-index:999;
-}
+} */
 
 .ProjectCard a {
   text-decoration: none;
